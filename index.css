@@ -114,16 +114,83 @@ a {
 }
 
 .ctaContainer {
-  width: 50%;
+  width: 30%;
   height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-left: 5%;
+  margin-left: 15%;
   background-color: rgba(253, 245, 245, 0.4);
   border-radius: 25px;
+}
+
+.info {
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/19101/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.testContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 30%;
+}
+
+.testContainer:first-child {
+  margin-top: 5%;
+}
+
+.testContainer:last-child {
+  margin-bottom: 5%;
+}
+
+.testCard {
+  font-size: .75em;
+  padding: 1%;
+  width: 35%;
+  background-color: rgba(253, 245, 245, 0.4);
+  border-radius: 50px;
+  height: auto;
+}
+
+.testCard h3 {
+  margin: 2%;
+  font-size: 1em;
+  font-weight: bold;
+  display: flex;
+}
+
+footer {
+  height: 20vh;
+  background-color: rgba(103, 128, 159, 1);
+}
+
+.footerNav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer2 {
+  display: none;
 }
 
 @media(max-width: 500px) {
@@ -155,5 +222,25 @@ a {
   .hero {
     align-items: flex-start;
     text-align: center;
+    justify-content: flex-start;
+  }
+  .ctaContainer {
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .info {
+    background-position-x: 36%;
+  }
+
+  footer {
+    display: none;
+  }
+
+  footer2 {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    
   }
 }
