@@ -56,9 +56,15 @@ body {
     justify-content: space-between;
     height: 10vh;
     width: 100%;
-   
     background-color: rgba(1, 50, 67, 1)
    
+  }
+
+  .headerLogo {
+      display: flex;
+      align-items: center;
+      margin-right: 5%;
+      height: 10vh;
   }
   .navFlex{
     display: flex;
@@ -70,9 +76,8 @@ body {
   
 
   .redBull {
-    height: 9vh;
+    height: 8vh;
     border-radius: 50%;
-    margin: 5% 20% 0 0;
   }
   
   .hero {
